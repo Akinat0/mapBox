@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{1AC72F0D-A4B8-8D98-85D4-0797D47FF82A}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Mapbox/Unity/Location/LocationProviderFactory.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Compass System/Scripts/CompassCtrl.cs">
     <Files>
       <File FileName="Assets/GoogleARCore/SDK/Scripts/Editor/BuildHelper.cs" Line="58" Column="1" />
       <File FileName="Assets/Mapbox/Unity/Map/AbstractMap.cs" Line="638" Column="5" />
@@ -10,9 +10,13 @@
       <File FileName="Assets/Mapbox/Unity/Location/TransformLocationProvider.cs" Line="46" Column="49" />
       <File FileName="Assets/Development/Scripts/GeneratePrefab.cs" Line="25" Column="35" />
       <File FileName="Assets/Development/Scripts/Billboard.cs" Line="12" Column="74" />
-      <File FileName="Assets/MapboxAR/Unity/Ar/SimpleAutomaticSynchronizationContextBehaviour.cs" Line="64" Column="53" />
+      <File FileName="Assets/MapboxAR/Unity/Ar/SimpleAutomaticSynchronizationContextBehaviour.cs" Line="89" Column="69" />
       <File FileName="Assets/Mapbox/Unity/Location/ILocationProvider.cs" Line="8" Column="19" />
       <File FileName="Assets/Mapbox/Unity/Location/LocationProviderFactory.cs" Line="42" Column="41" />
+      <File FileName="Assets/Mapbox/Examples/Scripts/RotateWithLocationProvider.cs" Line="120" Column="6" />
+      <File FileName="Assets/Mapbox/Unity/Location/Location.cs" Line="26" Column="20" />
+      <File FileName="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_FileSource.cs" Line="140" Column="1" />
+      <File FileName="Assets/Compass System/Scripts/CompassCtrl.cs" Line="16" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

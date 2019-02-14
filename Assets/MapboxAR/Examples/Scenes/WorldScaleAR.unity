@@ -404,19 +404,19 @@ Prefab:
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 2}
       propertyPath: _options.locationOptions.latitudeLongitude
-      value: 55.773439, 37.605292
+      value: 55.778647, 37.452539
       objectReference: {fileID: 0}
     - target: {fileID: 4507228240847652, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1.5157169
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4507228240847652, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1.5157169
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4507228240847652, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
       propertyPath: m_LocalScale.z
-      value: 1.5157169
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224157022221560580, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 2}
@@ -426,6 +426,11 @@ Prefab:
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 2}
       propertyPath: _initializeOnStart
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114821216931946548, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _useAutomaticSynchronizationBias
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -461,6 +466,20 @@ MonoBehaviour:
   _spawnScale: 10
   _markerPrefab: {fileID: 1249261951276988, guid: 424c84414dc4347adaead1f1279d8b1c,
     type: 2}
+--- !u!114 &1002213151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1002213149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc2383b7bd574c7fb33dca489fef4b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logText: {fileID: 0}
+  useText: 0
+  onceARun: 1
 --- !u!1 &1623985787 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1842844187067146, guid: 35e76f6e52f5c4252a0b703cc2019a37,
